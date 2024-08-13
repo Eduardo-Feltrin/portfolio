@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #EEE9D8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Container to Center Content */
+.container {
+  width: 85%;
+  max-width: 600px; /* Reduced for better readability */
+  padding: 20px; /* Add padding for better spacing */
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #366A20;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #366A20;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+/* Centralize and Style the Figure */
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Paragraph Styles */
+main p {
+  font-size: 1.2rem;
+  text-align: left; /* For better readability */
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px;
+}
+
+section h1,
+section h2 {
+  color: #366A20;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #366A20;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 10px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+  header h1,
+  main p,
+  section h1,
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
